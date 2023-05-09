@@ -8,3 +8,11 @@
     align-items: center;
     font-family: 'Josefin Sans'
 }
+.topright,.topleft{
+    flex:3;
+    background: tomato;
+}     
+.topcentre{
+    flex:6;
+    background: seagreen;
+}              
