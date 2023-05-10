@@ -24,3 +24,34 @@
     border-radius: 50%;
     object-fit: cover;
 }
+
+.topicon{
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #595555;
+
+}
+
+.topList{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;                               
+}
+
+.topSearchIcon{
+    font-size: 18px;
+color:#666;
+cursor: pointer;
+margin-left: 15px;
+}

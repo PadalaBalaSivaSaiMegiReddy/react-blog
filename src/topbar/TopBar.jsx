@@ -7,7 +7,7 @@ export default function TopBar() {
       <i className="topicon fa-brands fa-square-facebook"></i>
       <i className="topicon fa-brands fa-square-twitter"></i>
       <i className="topicon fa-brands fa-square-instagram"></i>
-      <i className="topicon fa-brands fa-square-linkedin"></i>
+      <i className="topicon fa-brands fa-square-pinterest"></i>
       </div>
       <div className="topcentre">
         <ul className="topList">
