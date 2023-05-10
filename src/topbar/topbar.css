@@ -10,9 +10,17 @@
 }
 .topright,.topleft{
     flex:3;
-    background: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }     
 .topcentre{
     flex:6;
-    background: seagreen;
-}              
+}   
+
+.topImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
