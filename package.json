@@ -1,4 +1,7 @@
 {
   "name": "react-blog",
-  "packageManager": "yarn@3.5.1"
+  "packageManager": "yarn@3.5.1",
+  "dependencies": {
+    "react-router-dom": "^6.11.2"
+  }
 }
