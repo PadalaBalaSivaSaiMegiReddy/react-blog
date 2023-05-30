@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/user-event", "virtual:0562c2e5ec61a79589abeb6b73194206b6996ded4fd3c4c0052d5934398d644281910fddf07afade9ea4e5c329c57980c96030157002c8e6460b775f73366e7b#npm:13.5.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:0562c2e5ec61a79589abeb6b73194206b6996ded4fd3c4c0052d5934398d644281910fddf07afade9ea4e5c329c57980c96030157002c8e6460b775f73366e7b#npm:18.2.0"],\
+            ["react-named-router", "virtual:0562c2e5ec61a79589abeb6b73194206b6996ded4fd3c4c0052d5934398d644281910fddf07afade9ea4e5c329c57980c96030157002c8e6460b775f73366e7b#npm:0.8.2"],\
             ["react-scripts", "virtual:0562c2e5ec61a79589abeb6b73194206b6996ded4fd3c4c0052d5934398d644281910fddf07afade9ea4e5c329c57980c96030157002c8e6460b775f73366e7b#npm:5.0.1"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
@@ -14791,6 +14792,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/user-event", "virtual:0562c2e5ec61a79589abeb6b73194206b6996ded4fd3c4c0052d5934398d644281910fddf07afade9ea4e5c329c57980c96030157002c8e6460b775f73366e7b#npm:13.5.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:0562c2e5ec61a79589abeb6b73194206b6996ded4fd3c4c0052d5934398d644281910fddf07afade9ea4e5c329c57980c96030157002c8e6460b775f73366e7b#npm:18.2.0"],\
+            ["react-named-router", "virtual:0562c2e5ec61a79589abeb6b73194206b6996ded4fd3c4c0052d5934398d644281910fddf07afade9ea4e5c329c57980c96030157002c8e6460b775f73366e7b#npm:0.8.2"],\
             ["react-scripts", "virtual:0562c2e5ec61a79589abeb6b73194206b6996ded4fd3c4c0052d5934398d644281910fddf07afade9ea4e5c329c57980c96030157002c8e6460b775f73366e7b#npm:5.0.1"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
@@ -14899,6 +14901,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/react-is-npm-18.2.0-0cc5edb910-e72d0ba81b.zip/node_modules/react-is/",\
           "packageDependencies": [\
             ["react-is", "npm:18.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-named-router", [\
+        ["npm:0.8.2", {\
+          "packageLocation": "./.yarn/cache/react-named-router-npm-0.8.2-2b66e27a14-b46ed93348.zip/node_modules/react-named-router/",\
+          "packageDependencies": [\
+            ["react-named-router", "npm:0.8.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:0562c2e5ec61a79589abeb6b73194206b6996ded4fd3c4c0052d5934398d644281910fddf07afade9ea4e5c329c57980c96030157002c8e6460b775f73366e7b#npm:0.8.2", {\
+          "packageLocation": "./.yarn/__virtual__/react-named-router-virtual-c0f0d7fbee/0/cache/react-named-router-npm-0.8.2-2b66e27a14-b46ed93348.zip/node_modules/react-named-router/",\
+          "packageDependencies": [\
+            ["react-named-router", "virtual:0562c2e5ec61a79589abeb6b73194206b6996ded4fd3c4c0052d5934398d644281910fddf07afade9ea4e5c329c57980c96030157002c8e6460b775f73366e7b#npm:0.8.2"],\
+            ["@types/react", null],\
+            ["@types/react-router", null],\
+            ["@types/react-router-dom", null],\
+            ["react", "npm:18.2.0"],\
+            ["react-router", null],\
+            ["react-router-dom", null],\
+            ["tiny-invariant", "npm:1.3.1"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-router-dom",\
+            "@types/react-router",\
+            "@types/react",\
+            "react-router-dom",\
+            "react-router",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -16526,6 +16559,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/thunky-npm-1.1.0-2d25531f44-993096c472.zip/node_modules/thunky/",\
           "packageDependencies": [\
             ["thunky", "npm:1.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tiny-invariant", [\
+        ["npm:1.3.1", {\
+          "packageLocation": "./.yarn/cache/tiny-invariant-npm-1.3.1-a8ca214e49-872dbd1ff2.zip/node_modules/tiny-invariant/",\
+          "packageDependencies": [\
+            ["tiny-invariant", "npm:1.3.1"]\
           ],\
           "linkType": "HARD"\
         }]\
