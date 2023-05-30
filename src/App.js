@@ -23,10 +23,10 @@ function App() {
 					<Route path="/login">
 						<Login />
 					</Route>
-					<Route path="/Settings">
+					<Route path="/settings">
 						<Settings />
 					</Route>
-					<Route path="/Write">
+					<Route path="/write">
 						<Write />
 					</Route>
 					<Route path="/post/:postId">
