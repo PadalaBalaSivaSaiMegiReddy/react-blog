@@ -4,32 +4,34 @@ export default function Write() {
 	return (
 		<div className="write">
 			<img
-				className="writeimg"
-				src="https://images.unsplash.com/photo-1684785459021-761c8ee14e49?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+				className="writeImg"
+				src="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
 				alt=""
 			/>
-			<form action="" className="writeform">
+			<form className="writeForm">
 				<div className="writeFormGroup">
-					{/* labelhtmlforinput */}
 					<label htmlFor="fileInput">
-						<i className=" writeicon fa-solid fa-plus"></i>
+						<i className="writeIcon fas fa-plus"></i>
 					</label>
-					<input type="file" id="fileInput" style={{ display: "none" }} />
+					<input id="fileInput" type="file" style={{ display: "none" }} />
 					<input
-						type="text"
-						placeholder="Title"
 						className="writeInput"
+						placeholder="Title"
+						type="text"
 						autoFocus={true}
 					/>
 				</div>
 				<div className="writeFormGroup">
 					<textarea
-						placeholder="Write your story..."
-						type="text"
 						className="writeInput writeText"
-					></textarea>
+						placeholder="Tell your story..."
+						type="text"
+						autoFocus={true}
+					/>
 				</div>
-				<button className="writeSubmit">Publish</button>
+				<button className="writeSubmit" type="submit">
+					Publish
+				</button>
 			</form>
 		</div>
 	);

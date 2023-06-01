@@ -1,61 +1,61 @@
 .post {
 	width: 385px;
 	margin: 0px 25px 40px 25px;
-}
-.postimg {
-	margin-top: 20px;
-	width: 100%;
-	height: 280px;
-	object-fit: cover;
-	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
 }
 
-.postinfo {
+.postImg {
+	width: 385px;
+	height: 280px;
+	object-fit: cover;
+	border-radius: 7px;
+}
+
+.postInfo {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-.postcat {
-	font-family: "Varela Round", sans-serif;
+
+.postCat {
+	font-family: "Varela Round", Arial, Helvetica, sans-serif;
+	font-weight: 400;
 	font-size: 11px;
-	color: goldenrod;
-	line-height: 20px;
+	color: #be9656;
+	line-height: 19px;
 	margin-top: 15px;
 	margin-right: 10px;
+	cursor: pointer;
 }
 
-.posttitle {
-	font-family: "Josefin Sans", sans-serif;
+.postTitle {
+	font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
 	font-size: 24px;
-	font-weight: 700;
+	font-weight: 900;
 	margin-top: 15px;
 	cursor: pointer;
 }
 
-.postdate {
-	font-family: "Varela Round", sans-serif;
-	font-size: 11px;
-	color: #a7a4a4;
-	line-height: 20px;
-	margin-top: 15px;
-	margin-right: 10px;
+.postDate {
+	font-family: "Lora", serif;
 	font-style: italic;
+	font-size: 13px;
+	font-weight: 400;
+	color: #999999;
+	margin-top: 15px;
 }
 
-.postdesc {
-	font-family: "Varela Round", sans-serif;
+.postDesc {
+	font-family: "Varela Round", Arial, Helvetica, sans-serif;
+	font-weight: 400;
 	font-size: 14px;
-
-	line-height: 20px;
+	line-height: 24px;
+	color: #444444;
 	margin-top: 15px;
-	margin-right: 10px;
-	color: #444;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 4; /* number of lines to show */
-    -webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
 }

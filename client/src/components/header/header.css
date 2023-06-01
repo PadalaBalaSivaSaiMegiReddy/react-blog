@@ -1,21 +1,22 @@
-.header {
+header {
 	margin-top: 60px;
 }
+
 .headerTitles {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	font-family: "lora", serif;
-	color: #a39d9d;
+	font-family: "Lora", serif;
+	color: #444;
 }
 
-.headerTitlesSm {
+.headerTitleSm {
 	position: absolute;
 	top: 18%;
-	flex: 20;
+	font-size: 20px;
 }
 
-.headerTitlesLg {
+.headerTitleLg {
 	position: absolute;
 	top: 20%;
 	font-size: 100px;

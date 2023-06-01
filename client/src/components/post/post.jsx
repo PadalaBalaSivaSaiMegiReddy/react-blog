@@ -1,25 +1,36 @@
+import { Link } from "react-router-dom";
 import "./post.css";
 
-export default function Post() {
+export default function Post({ img }) {
 	return (
 		<div className="post">
-			<img
-				src="https://images.pexels.com/photos/16889399/pexels-photo-16889399/free-photo-of-light-dawn-landscape-nature.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-				alt=""
-				className="postimg"
-			/>
-			<div className="postinfo">
-				<div className="postcats">
-					<span className="postcat">Music</span>
-					<span className="postcat">Life</span>
+			<img className="postImg" src={img} alt="" />
+			<div className="postInfo">
+				<div className="postCats">
+					<span className="postCat">
+						<Link className="link" to="/posts?cat=Music">
+							Music
+						</Link>
+					</span>
+					<span className="postCat">
+						<Link className="link" to="/posts?cat=Music">
+							Life
+						</Link>
+					</span>
 				</div>
-				<span className="posttitle">Lorem ipsum dolor sit amet.</span>
+				<span className="postTitle">
+					<Link to="/post/abc" className="link">
+						Lorem ipsum dolor sit amet
+					</Link>
+				</span>
 				<hr />
-				<span className="postdate">1 hour ago</span>
+				<span className="postDate">1 hour ago</span>
 			</div>
-			<p className="postdesc">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-				voluptatum. Quisquam, voluptatum. Quisquam, voluptatum.
+			<p className="postDesc">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+				officia architecto deserunt deleniti? Labore ipsum aspernatur magnam
+				fugiat, reprehenderit praesentium blanditiis quos cupiditate ratione
+				atque, exercitationem quibusdam, reiciendis odio laboriosam?
 			</p>
 		</div>
 	);
