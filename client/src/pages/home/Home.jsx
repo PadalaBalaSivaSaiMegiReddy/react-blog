@@ -4,7 +4,6 @@ import Posts from "../../components/posts/posts";
 // import Single from "../single/Single";
 import Sidebar from "../../components/sidebar/sidebar";
 
-
 export default function Home() {
 	return (
 		<>
@@ -13,7 +12,6 @@ export default function Home() {
 				<Posts />
 				{/* <Single /> */}
 				<Sidebar />
-
 			</div>
 		</>
 	);
