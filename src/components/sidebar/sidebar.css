@@ -25,7 +25,34 @@
     font-family: 'Verela Round', sans-serif;
     font-size: 12px;
     font-weight: 600;
-    line-height: 20;
+    line-height: 20px;
     text-align: center;
     color:#222;
+}
+
+.sidebarItem>img{
+    width: 75%;
+    margin-top: 15px;
+    
+}
+
+.sidebarItem>p{
+    padding: 30px;    
+}
+
+.sidebarList{
+    list-style: none;
+    margin-bottom: 30px;
+    position: relative;
+    left: 30px;
+
+}
+
+.sidebarListItem{
+    display: inline-block;
+    width: 50%;
+    cursor: pointer;
+    margin-top: 15px;
+   
+
 }
