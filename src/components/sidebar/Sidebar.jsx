@@ -6,7 +6,7 @@ const SideBar = () => {
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
         <img
-          src="src\assets\DSC_0320.JPG"
+          src="src/assets/DSC_0320.JPG"
           alt=""/>
         <p>
           Laboris sunt aute cupidatat velit magna velit ullamco dolore mollit
