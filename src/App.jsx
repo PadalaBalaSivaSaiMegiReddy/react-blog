@@ -8,7 +8,8 @@ const App = () => {
   return (
     <>
     <Topbar/>
-    <Write/>    </>
+    <Write/>   
+     </>
   )
 }
 

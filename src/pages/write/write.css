@@ -1,0 +1,24 @@
+.write{
+    padding-top: 50px;
+}
+.writeForm{
+
+}
+
+.writeFormGroup{
+    margin-left: 150px;
+}
+
+.writeIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    font-size: 20px;
+    padding: 3px;
+    color: rgb(98, 95, 95);
+    cursor: pointer;
+  }
