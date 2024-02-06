@@ -43,12 +43,14 @@
 }
 
 .singlePostDesc{
-    font-family: "Lora", serif;
-    margin-bottom: 20px;
     font-size: 18px;
     color: #666;
-    line-height: 1.7;
+    line-height: 25px;
 }
-.singlePostDesc p{
-    margin-bottom: 20px;
+
+.singlePostDesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
 }
+
