@@ -22,3 +22,33 @@
     float: right;
     font-size: 16px;
 }
+
+.singlePostIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.singlePostIcon:first-child{
+    color: teal;
+}
+.singlePostIcon:last-child{
+    color: tomato;
+}
+.singlePostInfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #b39656;
+    font-family: "varela round", sans-serif;
+    font-size: 16px;
+}
+
+.singlePostDesc{
+    font-family: "Lora", serif;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #666;
+    line-height: 1.7;
+}
+.singlePostDesc p{
+    margin-bottom: 20px;
+}
