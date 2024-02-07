@@ -40,4 +40,12 @@
 
   .writeSubmit{
     position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: teal;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
   }
