@@ -2,7 +2,7 @@
     padding-top: 50px;
 }
 .writeForm{
-
+    position: relative;
 }
 
 .writeFormGroup{
@@ -21,4 +21,23 @@
     padding: 3px;
     color: rgb(98, 95, 95);
     cursor: pointer;
+  }
+
+  .writeInput{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+  }
+
+  .writeInput:focus{
+    outline: none;
+  }
+
+  .writeText{
+    font-size: 20px;
+  }
+
+  .writeSubmit{
+    position: absolute;
   }
