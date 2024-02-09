@@ -58,3 +58,16 @@
     font-size:20px ;
     margin-top: 20px;
 }
+
+.settingsForm>input{
+    color: gray;
+    margin: 10px 0px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.settingsSubmit{
+    width: 150px;
+    align-items: center;
+}
