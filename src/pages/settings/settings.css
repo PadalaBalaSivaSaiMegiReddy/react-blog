@@ -14,11 +14,47 @@
 }
 
 .settingsImg{
-    width: 100%;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
 }
 
 .settingsUpdateTitle{
     font-size: 30px;
     margin-bottom: 20px;
     color: lightcoral;
+}
+
+.settingsDeleteTitle{
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+}
+.settingsPP{
+    display: flex;
+    margin: 10px 0px;
+    align-items: center;
+}
+.settingsPPIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.settingsForm>label{
+    font-size:20px ;
+    margin-top: 20px;
 }

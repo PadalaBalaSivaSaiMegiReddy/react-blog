@@ -13,7 +13,7 @@ export default function Settings() {
                 <div className="settingsPP">
                 <img className="settingsImg" src="https://images.unsplash.com/photo-1617194369222-af8a7e682365?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/>
                 <label htmlFor="fileInput">
-                <i className=" settingsPPIcon far fa-user-circle"></i>
+                <span className="settingsPPIcon" ><i className=" far fa-user-circle"></i></span>
                 </label>
                 <input type="file" id="fileInput" style={{display:"none"}} />
                 </div>
