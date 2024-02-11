@@ -22,10 +22,12 @@ const TopBar = () => {
       <div className="topRight">
         {user?(<img src="src/assets/LinkedIn_DP.jpg " alt="" className='topImg' />
       ):
-      <>
-      <Link to="/login" className='link'>LOGIN</Link>
-      <Link to="/register" className='link'>REGISTER</Link>
-      </>
+      <ul className='topList'>
+        <li className="topListItem"><Link to="/login" className='link'>LOGIN</Link></li>
+        <li className="topListItem"><Link to="/register" className='link'>REGISTER</Link></li>
+      
+      
+      </ul>
     
       }
 
