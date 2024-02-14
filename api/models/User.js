@@ -1,7 +1,5 @@
 const mongoose = require("mongoose")
 
-import mongoose from 'mongoose';
-
 const UserSchema = mongoose.Schema(
   {
     username: {
