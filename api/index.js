@@ -2,9 +2,15 @@ const express = require('express');
 const app=express();
 const dotevn=require('dotenv');
 const mongoose=require('mongoose');
+const authRoute=require('./routes/auth')
 
 
 dotevn.config()
+
+app.use(express.json())
+
+
+app.use("/api/auth",authRoute)
 
 
 mongoose

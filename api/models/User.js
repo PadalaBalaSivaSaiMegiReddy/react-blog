@@ -19,10 +19,10 @@ const UserSchema = mongoose.Schema(
     profilepicture: {
         type:String,
         default:"",
-
     },
 },
-{timestamp:true}
+{timestamps:true}
 );
 
-export const Book = mongoose.model('User', UserSchema);
+const User = mongoose.model('User', UserSchema);
+module.exports = User;
