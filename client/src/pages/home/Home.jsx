@@ -10,12 +10,10 @@ const Home = () => {
   useEffect(()=>{
     const fetchPosts=async()=>{
       const response=await axios.get('http://localhost:5000/api/posts');
-      setPosts(response)
+      setPosts(response.data)
     }
     fetchPosts()
-  })
-  console.log(posts)
-
+  },[])
   return (
     <>
         <Header/>

@@ -4,14 +4,9 @@ import  './posts.css'
 const Posts = ({posts}) => {
   return (
     <div className='posts'>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
+      {posts.map((p)=>{
+        return <Post key={p} post={p}/>
+      })}
     </div>
   )
 }
