@@ -8,10 +8,24 @@ const postRoute = require("./routes/posts");
 const categoryRoute = require("./routes/categories");
 const multer = require("multer");
 const path = require("path");
+const cors =require("cors");
+
 
 dotenv.config();
 app.use(express.json());
 app.use("/images", express.static(path.join(__dirname, "/images")));
+
+// Middleware for handling CORS POLICY
+// Option 1: Allow All Origins with Default of cors(*)
+app.use(cors());
+// Option 2: Allow Custom Origins
+// app.use(
+//   cors({
+//     origin: 'http://localhost:3000',
+//     methods: ['GET', 'POST', 'PUT', 'DELETE'],
+//     allowedHeaders: ['Content-Type'],
+//   })
+// );
 
 
 mongoose
