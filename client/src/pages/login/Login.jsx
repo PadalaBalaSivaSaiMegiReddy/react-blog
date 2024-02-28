@@ -6,11 +6,11 @@ export default function Login() {
     <div className='login'>
         <span className="loginTitle">Login</span>
         <form className="loginForm">
-            <label>Email</label>
-            <input type="email" placeholder='Enter Your Email...' />
+            <label>Username</label>
+            <input type="text" placeholder='Enter Your Username...' />
             <label>Password</label>
             <input type="password" placeholder='Enter Your Password...' />
-            <button className="loginButton">Login</button>
+            <button className="loginButton" type='submit'>Login</button>
         </form>
             <button className="loginRegisterButton">
               <Link to="/register" className='link'>Register</Link>
