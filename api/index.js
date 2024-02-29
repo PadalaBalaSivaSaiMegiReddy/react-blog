@@ -9,10 +9,12 @@ const categoryRoute = require("./routes/categories");
 const multer = require("multer");
 const path = require("path");
 const cors =require("cors");
+const bodyParser = require('body-parser');
 
 
 dotenv.config();
 app.use(express.json());
+// app.use(bodyParser.json());L
 app.use("/images", express.static(path.join(__dirname, "/images")));
 
 // Middleware for handling CORS POLICY
