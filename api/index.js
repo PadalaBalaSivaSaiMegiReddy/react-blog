@@ -15,7 +15,6 @@ const bodyParser = require('body-parser');
 dotenv.config();
 app.use(express.json());
 // app.use(bodyParser.json());L
-app.use("/images", express.static(path.join(__dirname, "/images")));
 
 // Middleware for handling CORS POLICY
 // Option 1: Allow All Origins with Default of cors(*)
@@ -42,20 +41,30 @@ mongoose
 		console.log(error);
 	});
 
+	app.use("/images", express.static(path.join(__dirname, "public/images")));
+
 
 	const storage = multer.diskStorage({
 		destination: (req, file, cb) => {
-		  cb(null, "images");
+		  cb(null, "public/images");
 		},
 		filename: (req, file, cb) => {
-		  cb(null, req.body.name);
+		  cb(null,req.body.name);
 		},
 	  });
-	  
-	  const upload = multer({ storage: storage });
-	  app.post("/api/upload", upload.single("file"), (req, res) => {
-		res.status(200).json("File has been uploaded");
-	  });
+	const upload = multer({ storage: storage });
+
+
+	app.post('/api/upload', upload.single('file'), function (req, res, next) {
+    // req.file is the `avatar` file
+    // req.body will hold the text fields, if there were any
+    try {
+        return res.status(200).json("File uploaded successfully");
+        
+    } catch (error) {
+        console.log(error)
+    }
+  })
 	  
 	  app.use("/api/auth", authRoute);
 	  app.use("/api/users", userRoute);
